@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "better-safe-than-sorry"
+version = "0.1.1"
+description = ""
+authors = [
+    "Michael Sammereier <michael.sammereier@tum.de>",
+    "Patrick Stöckle <patrick.stoeckle@tum.de>",
+]
+maintainers = [
+    "Patrick Stöckle <patrick.stoeckle@tum.de>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+scikit-learn = "^1.0.1"
+pyeda = "0.28.0"
+typer = "^0.6.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.961"
+lxml = "^4.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bsts = 'better_safe_than_sorry:app'
+better-safe-than-sorry = 'better_safe_than_sorry:app'

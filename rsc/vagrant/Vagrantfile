@@ -1,0 +1,28 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+
+Vagrant.configure("2") do |config|
+  
+  # Configure used Vagrant box
+  config.vm.box = "WinServer2016"
+
+  # Use WinRM instead of ssh to communicate with Windows
+  config.vm.communicator = "winrm"
+  
+  # Authentication
+  config.winrm.username = "Administrator"
+  config.winrm.password = "TODO:REPLACE WITH PASSWORD"
+  
+  # Allocate 4 GB RAM
+  config.vm.provider "virtualbox" do |vb|
+    # Customize the amount of memory on the VM:
+    vb.memory = "4096"
+	vb.cpus = "4"
+  end
+  
+  
+  # Automatically execute the following script after startup
+  config.vm.provision "shell", path: "setup.ps1"
+  
+end
