@@ -1,7 +1,6 @@
 # Better Safe Than Sorry
 
-
-This repository is part of the paper *Better Safe Than Sorry! Automated Identification of Breaking Security-Configuration Rules* submitted to the [4th ACM/IEEE International Conference on Automation of Software Test (AST)](https://conf.researchr.org/home/ast-2023).
+This repository is part of the paper *Better Safe Than Sorry! Automated Identification of Breaking Security-Configuration Rules* accepted at the [4th ACM/IEEE International Conference on Automation of Software Test (AST)](https://conf.researchr.org/home/ast-2023).
 
 Institutions like the [Center for Internet Security](https://www.cisecurity.org/) publish security-configuration guides(also called benchmarks) that help us configure systems more securely.
 This configuration hardening can mitigate the risk of successful attacks, which may cause damage to our systems and data.
@@ -20,14 +19,14 @@ One can redo all our experiments presented in the article using the code in this
 
 ## Setup
 
-<!-- ### With PyPi
+### With PyPi
 
 The easiest way to use the scrips in this repository is to install the package from PyPi
 
 ```shell
 pip install better-safe-than-sorry
 better-safe-than-sorry --version
-``` -->
+```
 
 ### With Poetry
 
@@ -59,7 +58,6 @@ See [here](better_safe_than_sorry/vagrant_deployment/README.md)
 
 See [here](better_safe_than_sorry/analysis/README.md).
 
-
 ## Resources
 
 ### Sfera Automation files
@@ -67,7 +65,6 @@ See [here](better_safe_than_sorry/analysis/README.md).
 The folder [rsc/sfera_automation_jsons](rsc/sfera_automation_jsons) contains variants of `sfera_automation.json` files based on the Windows 10 version 1909 guide by the Center for Internet Security.
 `sfera_automation.json` is a JSON-based file format used at Siemens to automatically implement Windows-based security-configuration guides.
 We generated the variants were generated using the IPOG and IPOG-D algorithms and include custom profiles for combinatorial testing of strength 2 to 5.
-
 
 ## Contact
 
