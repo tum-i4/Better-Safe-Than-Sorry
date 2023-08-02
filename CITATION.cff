@@ -61,7 +61,7 @@ preferred-citation:
     name: "AST '23"
     website: https://conf.researchr.org/home/ast-2023
   collection-type: proceedings
-  collection-title: 'ACM/IEEE International Conference on Automation of Software Test'
+  collection-title: 'IEEE/ACM International Conference on Automation of Software Test (AST)'
   authors:
   - given-names: Patrick
     family-names: Stöckle
