@@ -38,12 +38,25 @@ keywords:
   - Security Configuration
   - Natural Language Processing
 preferred-citation:
+  url: 'https://ieeexplore.ieee.org/document/10174171'
+  doi: '10.1109/AST58925.2023.00013'
   keywords:
-    - Hardening
-    - Security Configuration
-  status: preprint
+    - Automation
+    - Combinatorial testing
+    - Configuration management
+    - Machine learning
+    - Software
+    - Security
+  pages: 10
+  start: 90
+  end: 100
   title: Better Safe Than Sorry! Automated Identification of Breaking Security-Configuration Rules
   year: 2023
+  location:
+    name: 'Melbourne Convention and Exhibition Centre'
+    city: Melbourne
+    region: VIC
+    country: AU
   conference:
     name: "AST '23"
     website: https://conf.researchr.org/home/ast-2023
